@@ -1,0 +1,23 @@
+datasource:
+  username: ${DATABASE_USERNAME}
+  password: ${DATABASE_PASSWORD}
+  driver-class-name: org.mariadb.jdbc.Driver
+  url: jdbc:mariadb://database-1.cvyclyh4jg14.ap-northeast-2.rds.amazonaws.com:3306/food_place_project
+
+jwtpassword:
+  source: Z29nby10bS1zZXJ2ZXItZGxyamVvYW9yb3JodG9kZ290c3Atam9vbmdhbmduaW0teWVvbHNpbWhpaGFsZ2VveW8K
+
+oauth:
+  kakao:
+    client-id: d7453d5d4fe1c096ca03c1ed009a03ff
+    secret: K5U5BQQ9UdpwJvlPC0lP8mWBGQxXTe85
+    url:
+      auth: https://kauth.kakao.com
+      api: https://kapi.kakao.com
+      redirect-uri: http://localhost:8080/api/auth/kakao
+#  naver:
+#    secret: W_2DmcLfYU
+#    client-id: Y2i4SlApP7A1KZsUoott
+#    url:
+#      auth: https://nid.naver.com
+#      api: https://openapi.naver.com
